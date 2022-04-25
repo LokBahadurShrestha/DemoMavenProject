@@ -1,0 +1,158 @@
+[1647467885.114][INFO]: Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 20976
+[1647467885.114][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1647467885.429][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1647467885.431][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1647467885.431][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1647467885.431][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/xf/s3_jll59033dpx0w64xjxg8h0000gn/T/.com.google.Chrome.fKc1SZ data:,
+[1647467887.321][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1647467887.419][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "99.0.4844.51",
+      "chrome": {
+         "chromedriverVersion": "99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875})",
+         "userDataDir": "/var/folders/xf/s3_jll59033dpx0w64xjxg8h0000gn/T/.com.google.Chrome.fKc1SZ"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:62151"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "673d04863796b2d35a7b76c0efa27779"
+}
+[1647467887.471][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1647467887.475][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE SetTimeouts
+[1647467887.480][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND Navigate {
+   "url": "https://semanticbits.com/about/our-team/"
+}
+[1647467887.498][INFO]: Waiting for pending navigations...
+[1647467887.519][INFO]: Done waiting for pending navigations. Status: ok
+[1647467888.319][INFO]: Waiting for pending navigations...
+[1647467905.690][INFO]: Done waiting for pending navigations. Status: ok
+[1647467905.690][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE Navigate
+[1647467905.732][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[@class='name']"
+}
+[1647467905.732][INFO]: Waiting for pending navigations...
+[1647467905.733][INFO]: Done waiting for pending navigations. Status: ok
+[1647467920.765][INFO]: Waiting for pending navigations...
+[1647467924.856][INFO]: Done waiting for pending navigations. Status: ok
+[1647467924.856][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE FindElements [  ]
+[1647467924.866][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND Screenshot {
+
+}
+[1647467924.866][INFO]: Waiting for pending navigations...
+[1647467924.866][INFO]: Done waiting for pending navigations. Status: ok
+[1647467925.674][INFO]: Waiting for pending navigations...
+[1647467925.675][INFO]: Done waiting for pending navigations. Status: ok
+[1647467925.676][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACWAAAAUwCAYAAADHY27tAAABJ2lDQ1BTa2lhAAAokX2RPUjDYBCGH0sXf3BR0cEhTrqoacVoQQdTsIhbq1Dd0jQUsa0hTVHnru6uzq6uuhcnQXAQV3dBcK3v1w4pSL3jvnt475Lc5YPUArK0DY1mHBULrlU+ObUYMs9vhYy2Mfh5M..."
+[1647467925.893][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND Screenshot {
+
+}
+[1647467925.893][INFO]: Waiting for pending navigations...
+[1647467925.893][INFO]: Done waiting for pending navigations. Status: ok
+[1647467926.641][INFO]: Waiting for pending navigations...
+[1647467926.645][INFO]: Done waiting for pending navigations. Status: ok
+[1647467926.647][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAACWAAAAUwCAYAAADHY27tAAABJ2lDQ1BTa2lhAAAokX2RPUjDYBCGH0sXf3BR0cEhTrqoacVoQQdTsIhbq1Dd0jQUsa0hTVHnru6uzq6uuhcnQXAQV3dBcK3v1w4pSL3jvnt475Lc5YPUArK0DY1mHBULrlU+ObUYMs9vhYy2Mfh5M..."
+[1647467926.872][INFO]: [673d04863796b2d35a7b76c0efa27779] COMMAND Quit {
+
+}
+[1647467926.923][INFO]: [673d04863796b2d35a7b76c0efa27779] RESPONSE Quit
